@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+    color: rgba(84, 104, 250, 0.91);
+    text-shadow: 1px 1px 1px rgb(12, 25, 24);
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #1300fc;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: rgba(84, 104, 250, 0.91);
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #1300fc;
+}
+
+.first {
+    background: url(../img/pexels-photo-419480.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+
+.second {
+    margin-top: 40px;
+}
+
+.third {
+    background: url(../img/jordan-gellie-33556.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.tab-pane {
+    border: 1px solid #ddd;
+    padding: 42px;
+    background-color: #fff;
+    border-top: 0;
+}
+
+.work-examples {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.work-examples h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.biz-examples {
+    margin-top: 30px;
+    margin-bottom: 65px;
+}
+
+.biz-example .nav-tabs i{
+    font-size: 50px;
+    width: 80px;
+    text-align: center;
+}
+
+.biz-examples {
+    font-size: 50px;
+    text-align: center;
+}
+
+@media(max-width: 400px){
+    .biz-example .nav-tabs i {
+        font-size: 14px;
+        width: 15px;
+    }
+    
+    .ion-social-html5,
+    .ion-social-css3, 
+    .ion-social-javascript, 
+    .ion-social-nodejs, 
+    .ion-social-angular {
+        font-size: 25px;
+        width: 15px;
+    }
+}
+
+.ion-social-html5 {
+    color: #ea6635;
+}
+
+.ion-social-css3 {
+    color: #118cb5;
+}
+
+.ion-social-javascript {
+    color: #ebeb3b;
+    text-shadow: 0px 0px 3px #000;
+}
+
+.ion-social-nodejs {
+    color: rgba(82, 212, 82, 0.95);
+}
+
+.ion-social-angular {
+    color: #ff0000;
+} 
+
+.ion-social-html5:hover, 
+.ion-social-css3:hover, 
+.ion-social-javascript:hover, 
+.ion-social-nodejs:hover, 
+.ion-social-angular:hover {
+    color: rgba(84, 104, 250, 0.91);
+}
+
+.fourth {
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+span {
+    font-size: 15px;
+}
+
+.ion-social-python,
+.ion-social-sass,
+.ion-social-wordpress,
+.ion-social-android {
+    font-size: 25px;
+} 
+
+.ion-social-python {
+    color: #397e9a;
+    text-shadow: 0px 0px 3px #ffff00;
+}
+
+.ion-social-sass:hover {
+    color: #d3a4ac;
+}
+
+.ion-social-wordpress {
+    color: #3687d6;
+}
+
+.ion-social-android {
+    color: #99db34;
+}
+
+.ion-social-python:hover,
+.ion-social-sass:hover,
+.ion-social-wordpress:hover,
+.ion-social-android:hover {
+    color: rgba(84, 104, 250, 0.91);
+}
+
+.panel-title a {
+    text-decoration: none;
+}
+
+.fifth {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/scott-webb-12981.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 575px){
+    .fifth {
+        height: 680px;
+    }
+}
+
+.fifth h3 {
+    color: #fff;
+}
+
+blockquote {
+    color: #fff;
+    font-weight: 300;
+    font-style: italic;
+    border: none;
+    height: 130px;
+}
+
+cite {
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+    color: #fff;
+    margin-left: 21px;
+}
+
+cite img {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.sixth {
+    height: 70px;
+    background-color: #fff;
+}
+
+.pull-left {
+    margin-top: 20px;
+}
+
+.social li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.social li:hover {
+    transform: scale(1.15);
+}
+
+.ion-social-linkedin:hover, .ion-social-linkedin:active {
+    color: #007bb5;
+}
+
+.ion-social-pinterest:hover, .ion-social-pinterest:active {
+    color: #cb2027;
+}
+
+.ion-social-skype:hover, .ion-social.skype:active {
+    color: #00aff0;
+}
+
+.ion-social-rss:hover, .ion-social-rss:active {
+    color: #ff6600;
+}
